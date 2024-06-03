@@ -1,0 +1,47 @@
+Method 1:Brute Force
+using cpp language
+
+#include<iostream.h>
+using namespace std;
+int main()
+{
+int n= 90
+if(num>0)
+cout<<"The no is positive";
+elseif(num<90)
+cout<<"The no is negative";
+else
+cout<<"zero";
+return 0;
+}
+
+Method 2:Using Nested if-else Statement
+#include<iostream.h>
+using namespace std;
+int main()
+{
+int n= -12
+if(num>0)
+{
+if(num==0)
+cout<<"zero"
+else
+cout<<"The no is positive";
+}
+else
+cout<<"The no is negative";
+return 0;
+}
+
+Method 3 :Using Ternary Operator
+#include<iostream.h>
+using namespace std;
+int main ()
+{
+int num=-15
+ if(num == 0)
+            cout << "Zero"; else (num > 0) ? cout << "Positive": cout << "Negative";
+    
+    return 0;
+}
+
