@@ -1,0 +1,27 @@
+Let's Solve using cpp
+Method1:Using For Loop
+#include<iostream.h>
+using namespace std;
+int main()
+{
+int n;
+cout<<"Please enter a number :"
+cin>>n;
+int sum=0;
+for(i=1;i<n;i++)
+sum+=i;
+cout<<sum;
+return 0;
+}
+
+Method 2: Using formula for sum of N th Terms
+#include<iostream.h>
+using namespace std;
+int main()
+{
+int n;
+cout<<"Please Enter a number:"
+cin>>n;
+cout<<n*(n+1)/2
+return 0;
+}
