@@ -1,0 +1,46 @@
+#include<iostream.h>
+using namespace std;
+int main()
+int n1,n2,n3
+{
+Cout<<"Please Enter first no"
+Cin>>n1;
+Cout<<"Please Enter Second no "
+Cin>>n2;
+Cout<<"Please Enter Third no"
+Cin>>n3;
+if(n1>=n2)&&(n1>=n3)
+Cout<<"n1 is greatest"
+elseif(n2>=n3)&&(n2>=n1)
+Cout<<"n2 is greatest"
+else
+cout<,"n3 is greatest"
+return 0; 
+}
+
+Method 2:Ternary Operator
+#include<iostream.h>
+using namespace std;
+int main()
+{
+int n1,n2,n3
+n1=40,n2=50,n3=60;
+int temp,result;
+temp=n1>n2?n1:n2l;
+result=temp>n3?temp:n3;
+cout<<"result is the largest"
+return 0;
+}
+
+Method 3:Using inbuuilt max function
+#include<iostream.h>
+#include<math.h>
+using namespace std;
+int main()
+{
+int n1,n2,n3
+n1=10,n2=20,n3=30;
+int result;
+result=max(n1(max(n2,n3));
+return 0;
+}
