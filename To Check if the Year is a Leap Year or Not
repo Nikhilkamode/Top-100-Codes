@@ -1,0 +1,66 @@
+Let's Solve using Cpp
+Method 1:Using if-else
+
+#include<bits.h>
+using namespace std;
+int main
+{
+int year;
+year=2000;
+if(year%400==0)
+cout<<year<<"It is a leap year";
+elseif(year%4==0)&&(year%100!=0)
+
+cout<<year<<"It is a leap year";
+else
+cout<<year<<"It is not leap year";
+return 0;
+}
+
+Method 2: using if else 
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int year;
+
+    year=2000;
+
+    if(year % 400 == 0 || (year % 4 == 0  && year % 100 != 0))
+        cout << year << " is a Leap Year";
+
+    //not leap year
+    else
+        cout << year << " is not a Leap Year";
+    
+    return 0;
+}
+
+Method 3: using if-else complicated method 
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int year;
+
+    year=2000;
+  
+    if (year % 4 == 0) {
+        if (year % 100 == 0) {
+            if (year % 400 == 0) {
+                cout << year << " is a Leap Year";
+            }
+            else {
+                cout << year << " is not a Leap Year";
+            }
+        }
+        else {
+            cout << year << " is a Leap Year";
+        }
+    }
+    else {
+        cout << year << " is not a Leap Year";
+    }
+    return 0;
+}
