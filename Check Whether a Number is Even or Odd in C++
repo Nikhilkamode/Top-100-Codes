@@ -1,0 +1,29 @@
+let's solve using cpp
+Method 1:Using Brute force
+
+#include<iostream.h>
+using namespace std;
+int main ()
+{
+int number;
+cout<<"Enter a number:"
+cin>>number;
+if
+(number%2==0)
+Cout<<"The no is even";
+else
+cout<<"The no is odd";
+return 0;
+}
+
+Method 2:Using Ternary Operator
+
+#include<iostream.h>
+using namespace std;
+int main()
+{
+int number;
+Cout<<"Enter a number:"
+cin>>number;
+number%2==0? cout<<"Even":Cout<<"Odd";
+
