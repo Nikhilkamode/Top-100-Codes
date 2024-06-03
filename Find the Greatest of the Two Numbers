@@ -1,0 +1,45 @@
+Let's Solve using cpp
+Method 1: Using If-else Method
+
+#include<iostream.h>
+using namespace std;
+int main()
+{
+int num1,num2;
+num1=70,num2=80
+if(num1==num2)
+cout<<both are equal;elseif(num1>num2)
+cout<<num1<<"is greater than "<<num2;
+else
+cout<<num2<<"is greater than "<<num1;
+return 0;
+}
+
+Method 2: Using ternary operator
+#include<bits.h>
+using namespace std;
+int main()
+{
+int num1,num2
+num1=80,num2=90;
+if(num1==num2)
+cout<<"Both are equal",else{largest=num1>num2:num1:num2,cout<<largest<<"is largest";
+}
+return 0;
+}
+
+
+Method 3:Using inbuilt Max fubnction
+#include<iostream.h>
+#imclude<math.h>
+using namespace std;
+int main()
+{
+int num1,num2
+num1=78,num2=88;
+if(num1==num2)
+cout<<"Both are equal ";
+else
+cout<<max(num1,num2)<<"greater";
+return 0;
+}
