@@ -1,0 +1,21 @@
+Let's solve using Cpp
+
+#include<iostream.h>
+using namespace std;
+int main()
+{
+int num,rem,temp,reverse=0;
+num=12345
+cout<<"the num is:"<<num;
+temp=num;
+while(temp!=0)
+{
+rem=temp%10;
+reverse=reverse*10+rem;
+temp/=10;
+};
+if(num==reverse)
+cout<<num<<"It is palindrome";
+else
+cout<<num<<"It is not palindrome";
+}
