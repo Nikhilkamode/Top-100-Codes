@@ -1,0 +1,17 @@
+#include<iostream.h>
+usingnamespace std;
+int main()
+{
+int n
+cout<<Please enter a positive integer
+cin>>n;
+if(n<0)
+court<<"Factorial does not exist"
+else
+{
+for(int i=1;i<n;i++)
+factorial*=i;
+}
+court<<"factorial"
+return 0;
+}
