@@ -1,0 +1,20 @@
+let's solve using cpp
+
+#include<ostream.h>
+usuing namespace std;
+int main()
+{
+int a=0,b=1;
+int num=15;
+cout<<"a";
+cout<<"b";
+int nextTerm;
+for(int i=2;i<2;i++)
+{
+nextTerm=a+b;
+a=b;
+b=nextTerm;
+cout<<"nextTerm";
+}
+return0;
+}
