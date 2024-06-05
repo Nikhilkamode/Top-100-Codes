@@ -1,0 +1,22 @@
+#include,iostream.h>
+using namespace std;
+int(harshad no)(int num)
+{
+int sum=0;
+int temp=num;
+while(temp!=0)
+  {
+ sum=sum+temp%10;
+  temp/=10;
+   }
+return num%sum==0;
+}
+int main()
+{
+int n=153;
+if(harshad no)(n)
+cout<<n<<"The no is harshad";
+else
+cout<<n<<"The no is not harshad";
+return 0;
+}
