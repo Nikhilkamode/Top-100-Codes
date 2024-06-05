@@ -1,0 +1,17 @@
+#include<iostream.h>
+using namespace std;
+int main()
+{
+int n=28,sum=0;
+for(int i=1;i<=n;i++)
+       {
+if(i%n==0)
+sum=sum+i;
+        }
+if(sum==n)
+cout<<"The no is perfect number";
+else
+cout<<"The no is not perfect";
+}
+
+
