@@ -1,0 +1,29 @@
+#include<iostream.h>
+using namespace std;
+int main()
+int facto(int n);
+{
+int fact=1;
+for(int i=1;i<=n;i++)
+fact=fact*i;
+return fact;
+}
+intdetectstrong(int num)
+{
+int digit ,sum=0;
+int temp =num;
+while(temp!=0)
+{
+digit=temp%10;
+sum=sum+facto(digit);
+temo/=10;
+}
+int main()
+{
+if(detectstrong(num))
+cout<<"No is strong"
+else
+cout<<"No is not strong";
+}
+
+
