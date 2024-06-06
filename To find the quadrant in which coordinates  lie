@@ -1,0 +1,42 @@
+#include<iostream.h>
+using namespace std;
+int main()
+{
+int x,y;
+cout<<"Insert the values of x,y":;
+cin>>x>>y;
+if(x>0&&y>0)
+cout<<"x and y lies in the first quadrant";
+elseif(x>>0 && y<0)
+ else if (x < 0 && y > 0)
+    
+ 
+cout << "x and y  lies in the Second quadrant\n";
+  
+ 
+ 
+    //To find third quadrant
+    else if (x < 0 && y < 0)
+    
+ 
+cout << "x and y lies in the Third quadrant\n"; //To find Fourth quadrant else if (x > 0 && y < 0)
+    
+cout << "x and y lies in the Fourth quandrant\n";
+  
+    //To find dose not lie on origin 
+    else if (x == 0 && y == 0)
+    
+cout << x and y   on x-axix\n";
+  
+//On x-axis 
+    else if (y == 0 && x != 0)
+    
+cout << "x and y on x-axix\n";
+  
+    //On y-axis
+    else if (x == 0 && y != 0)
+    
+cout << "x and y on at y-axix\n";
+  
+return 0;
+}
