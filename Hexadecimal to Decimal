@@ -1,0 +1,10 @@
+#include<iostream.h>
+using namespace std;
+int main()
+{
+string hexadecimal;
+cin>>hexadecimal;
+int base=16;
+cout<<stoi(hexadecimal,0,base);
+return 0;
+}
