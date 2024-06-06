@@ -1,0 +1,11 @@
+Let's solve using cpp
+#include<iostream.h>
+using namespace std;
+int main()
+{
+string binarynumber;
+cout<<binarynumber;
+int base=8;
+cout<<stoi(binarynumber,0,base);
+return 0;
+}
