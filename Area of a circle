@@ -1,0 +1,12 @@
+let's solve using cpp
+
+#include<iostream.h>
+#include<maths.h>
+#include<bits.h>
+using namespace std;
+int main()
+{
+float rad=3,area;
+area=(3.14*r*r)
+Cout<<"Area of a circle is:"<<area;
+}
