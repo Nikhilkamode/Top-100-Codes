@@ -1,0 +1,22 @@
+let's solve using cpp
+
+#include<iostream.h>
+using namespace std;
+int factorial (int num)
+{
+int fact=1;
+for(int i=num;i>=num;i--)
+fact*=i;
+return fact;
+}
+int main()
+ {
+int n,r;
+cout<<"Enter number of people "
+cin>>n;
+cout<<"Enter number of seats"
+cin>>r;
+int p=fact(n)/factorial(n-1)
+cout<<"Total possible arrangemen"<<p;
+return 0;
+ }
