@@ -1,0 +1,19 @@
+#Let's solve using cpp
+
+#include<iostream.h>
+using namespace std;
+int main()
+{
+int n=123456789
+d=9;
+int count 0;
+while(n) {
+int rem=n%10;
+if(rem==d) {
+count++;
+}
+n=n/10;
+}
+cout<<count;
+return 0;
+}
