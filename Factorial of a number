@@ -1,17 +1,14 @@
-#include<iostream.h>
-usingnamespace std;
-int main()
-{
-int n
-cout<<Please enter a positive integer
-cin>>n;
-if(n<0)
-court<<"Factorial does not exist"
-else
-{
-for(int i=1;i<n;i++)
-factorial*=i;
+#include <iostream>
+using namespace std;
+
+int main() {
+  int number, factorial=1 ;
+  cin >> number;
+  for (int i = number; i >= 1 ; i--)
+  {
+    factorial = factorial * i;
+  }
+  cout << "The factorial of the given number is: " << factorial << endl;
+  return 0;
 }
-court<<"factorial"
-return 0;
-}
+
